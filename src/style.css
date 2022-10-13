@@ -63,7 +63,7 @@ hr {
 
 .row {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     padding: 1rem;
     gap: 10px;
     justify-content: space-around;
@@ -184,4 +184,9 @@ h4 {
     width: 400px;
     height: 100%;
     right: 10px;
+}
+@media screen and (min-width: 1000px) {
+    .row{
+        flex-direction: row;
+    }
 }
